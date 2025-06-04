@@ -66,130 +66,130 @@ export default {
         // Sehr häufige/bekannte Wörter
         {
           word: 'wasserhahn',
-          imageUrl: '/src/assets/images/wasserhahn.jpg',
+          imageUrl: '/images/wasserhahn.jpg',
           splitIndex: 6,
           solved: false
         },
         {
           word: 'glühbirne',
-          imageUrl: '/src/assets/images/glühbirne.jpg',
+          imageUrl: '/images/glühbirne.jpg',
           splitIndex: 4,
           solved: false
         },
         {
           word: 'zahnrad',
-          imageUrl: '/src/assets/images/zahnrad.jpg',
+          imageUrl: '/images/zahnrad.jpg',
           splitIndex: 4,
           solved: false
         },
         {
           word: 'schlafmütze',
-          imageUrl: '/src/assets/images/schlafmütze.jpg',
+          imageUrl: '/images/schlafmütze.jpg',
           splitIndex: 6,
           solved: false
         },
         {
           word: 'augapfel',
-          imageUrl: '/src/assets/images/augapfel.jpg',
+          imageUrl: '/images/augapfel.jpg',
           splitIndex: 3,
           solved: false
         },
         {
           word: 'ohrwurm',
-          imageUrl: '/src/assets/images/ohrwurm.jpg',
+          imageUrl: '/images/ohrwurm.jpg',
           splitIndex: 3,
           solved: false
         },
         {
           word: 'brillenschlange',
-          imageUrl: '/src/assets/images/brillenschlange.jpg',
+          imageUrl: '/images/brillenschlange.jpg',
           splitIndex: 7,
           solved: false
         },
         
         {
           word: 'schlüsselring',
-          imageUrl: '/src/assets/images/schlüsselring.jpg',
+          imageUrl: '/images/schlüsselring.jpg',
           splitIndex: 9,
           solved: false
         },
         {
           word: 'wolkenkratzer',
-          imageUrl: '/src/assets/images/wolkenkratzer.jpg',
+          imageUrl: '/images/wolkenkratzer.jpg',
           splitIndex: 6,
           solved: false
         },
         // Mittelhäufige Wörter
         {
           word: 'stuhlgang',
-          imageUrl: '/src/assets/images/stuhlgang.jpg',
+          imageUrl: '/images/stuhlgang.jpg',
           splitIndex: 5,
           solved: false
         },
         {
           word: 'eselsbrücke',
-          imageUrl: '/src/assets/images/eselsbrücke.jpg',
+          imageUrl: '/images/eselsbrücke.jpg',
           splitIndex: 5,
           solved: false
         },
         {
           word: 'kopfkino',
-          imageUrl: '/src/assets/images/kopfkino.jpg',
+          imageUrl: '/images/kopfkino.jpg',
           splitIndex: 4,
           solved: false
         },
         {
           word: 'armleuchter',
-          imageUrl: '/src/assets/images/armleuchter.jpg',
+          imageUrl: '/images/armleuchter.jpg',
           splitIndex: 3,
           solved: false
         },
         {
           word: 'quadratwurzel',
-          imageUrl: '/src/assets/images/quadratwurzel.jpg',
+          imageUrl: '/images/quadratwurzel.jpg',
           splitIndex: 8,
           solved: false
         },
         {
           word: 'schlüsselbein',
-          imageUrl: '/src/assets/images/schlüsselbein.jpg',
+          imageUrl: '/images/schlüsselbein.jpg',
           splitIndex: 9,
           solved: false
         },
         // Weniger häufige Wörter
         {
           word: 'torjäger',
-          imageUrl: '/src/assets/images/torjäger.jpg',
+          imageUrl: '/images/torjäger.jpg',
           splitIndex: 3,
           solved: false
         },
         {
           word: 'katzenwäsche',
-          imageUrl: '/src/assets/images/katzenwäsche.jpg',
+          imageUrl: '/images/katzenwäsche.jpg',
           splitIndex: 6,
           solved: false
         },
         {
           word: 'drahtzieher',
-          imageUrl: '/src/assets/images/drahtzieher.jpg',
+          imageUrl: '/images/drahtzieher.jpg',
           splitIndex: 5,
           solved: false
         },
         {
           word: 'bildschirm',
-          imageUrl: '/src/assets/images/bildschirm.jpg',
+          imageUrl: '/images/bildschirm.jpg',
           splitIndex: 4,
           solved: false
         },
         {
           word: 'eispickel',
-          imageUrl: '/src/assets/images/eispickel.jpg',
+          imageUrl: '/images/eispickel.jpg',
           splitIndex: 3,
           solved: false
         },
         {
           word: 'martinshorn',
-          imageUrl: '/src/assets/images/martinshorn.jpg',
+          imageUrl: '/images/martinshorn.jpg',
           splitIndex: 7,
           solved: false
         },
