@@ -1,5 +1,6 @@
 {
   "name": "word-guessing-game",
+  "homepage": "https://paszin.github.io/wasserhahn-und-wasserhahn-ratespiel",
   "private": true,
   "version": "0.0.0",
   "type": "module",
