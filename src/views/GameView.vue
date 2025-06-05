@@ -206,13 +206,27 @@ export default {
   },
   computed: {
     currentWord() {
-      return this.words[this.currentWordIndex];
+      const word = this.words[this.currentWordIndex];
+      if (word) {
+        // Create a copy to avoid modifying the original object
+        return {
+          ...word,
+          imageUrl: this.getImageUrl(word.imageUrl)
+        };
+      }
+      return word;
     },
     userGuess() {
       return this.letterInputs.join('');
     },
     totalWords() {
       return this.allWords.length;
+    },
+    baseUrl() {
+      // Check if we're on localhost
+      const isLocalhost = window.location.hostname === 'localhost' || 
+                          window.location.hostname === '127.0.0.1';
+      return isLocalhost ? '' : '/wasserhahn-und-wasserhahn-ratespiel';
     }
   },
   created() {
@@ -220,6 +234,9 @@ export default {
     this.resetLetterInputs();
   },
   methods: {
+    getImageUrl(imageUrl) {
+      return `${this.baseUrl}${imageUrl}`;
+    },
     checkGuess() {
       if (!this.userGuess.trim()) return;
       
